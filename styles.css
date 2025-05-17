@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f7f5;
+    margin: 0;
+    padding: 0;
+    color: #2d2f2e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 28px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #234236;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.expense-form form,
+.expense-edit-form,
+.expenses-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+label {
+    font-weight: 500;
+    color: #4e5d52;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px 14px;
+    border: 1px solid #b2c2b9;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9fcfa;
+    color: #234236;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+legend {
+    font-weight: 600;
+    color: #4e5d52;
+    margin-bottom: 6px;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    background-color: #2d9d78;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #237961;
+}
+
+.expenses-filter select {
+    max-width: 300px;
+}
+
+.expenses-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expense-item {
+    background-color: #e5f3ec;
+    padding: 16px 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.expense-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    color: #1e372d;
+}
+
+.expense-item p {
+    margin: 4px 0;
+    color: #4e5d52;
+}
+
+.expense-item button {
+    margin-right: 8px;
+    background-color: transparent;
+    color: #2d9d78;
+    padding: 6px 12px;
+    border: 1px solid #2d9d78;
+    border-radius: 6px;
+}
+
+.expense-item button:hover {
+    background-color: #2d9d78;
+    color: #ffffff;
+}
